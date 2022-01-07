@@ -1,0 +1,59 @@
+html, * {
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family: 'Arial';
+    background-color: #eee;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 1em;
+}
+
+header div.brand {
+    font-size: 1.2em;
+}
+
+span { 
+    display: inline-block;
+}
+
+article {
+    padding: 0 2em 2em 2em;
+}
+
+summary {
+    border-radius: 0.4em;
+    background-color: #aaa;
+    display: block;
+    margin: 1em;
+    padding: 1em 2em;
+}
+
+div.heading span {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 1em;
+}
+
+div span.item-iata {
+    width: 5em;
+}
+
+div span.item-icao {
+    width: 4em;
+}
+
+div span.item-name {
+    width: 30em;
+}
+
+div span.item-latitude, 
+div span.item-longitude {
+    width: 10em;
+}
+

@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "fr24\\": "includes/fr24/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
